@@ -1,6 +1,10 @@
 .navbar {
 overflow: hidden;
-
+width: 100%;
 height: auto;
 }
 
+.navbar a{
+    float: left;
+    
+}
