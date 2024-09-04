@@ -1,10 +1,32 @@
-h1{
-background-color: rgb(127, 217, 255);
-text-align: center;
-color: black;
-text-decoration: wavy;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1f26; 
+    color: #dce0e8; 
+    line-height: 1.6;
 }
+
+
+header {
+    background: url('game-banner.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; 
+}
+
+header h1 {
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
