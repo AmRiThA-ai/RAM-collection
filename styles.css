@@ -1,10 +1,19 @@
 .navbar {
 overflow: hidden;
 width: 100%;
-height: auto;
+height: auto; 
 }
 
 .navbar a{
     float: left;
     display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+.navbar a:hover {
+   background-color:  blue;
 }
