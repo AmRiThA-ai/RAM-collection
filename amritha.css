@@ -30,6 +30,8 @@ font-size: 60px;
   cursor: pointer;
   font-size: 16px;
   font-family: Arial, sans-serif;
+  text-align: center;
+  
 }
 
 .divab{
@@ -39,7 +41,8 @@ font-size: 60px;
   font-weight: 400;
   font-style: normal;
   line-height: 1;
-  display: flexbox;
+
+
   
 }
 
