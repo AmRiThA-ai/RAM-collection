@@ -24,7 +24,8 @@ font-size: 60px;
 .button {
   background-color: #ADD8E6 ;
   color: #FFFFFF;
-  border: none;
+  border: 5px #00008B;
+  border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
