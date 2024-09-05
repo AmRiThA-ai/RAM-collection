@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Outfit:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 
 .titleab {
 padding: 30px;
@@ -22,7 +21,7 @@ font-size: 60px;
     font-size: 48px;
   }
   
-.button {
+.buttonab {
   background-color: #ADD8E6 ;
   color: #FFFFFF;
   border: 5px #00008B;
@@ -35,10 +34,15 @@ font-size: 60px;
 
 .divab{
   background-color: #D3D3D3;
+  padding: 20px;
   color: #8A9A5B;
-  font-family: "Baskervville SC", serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1;
   display: flexbox;
+  
+}
+
+.imgab {
+  text-align: center;
 }
