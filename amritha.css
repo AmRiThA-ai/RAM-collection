@@ -4,7 +4,7 @@
 .titleab {
 padding: 30px;
 padding-bottom: 30px;
-background-color: lightskyblue;
+background-color: #ADD8E6;
 text-align: center;
 text-decoration: wavy;
 height: auto;
@@ -21,3 +21,12 @@ font-size: 60px;
     font-size: 48px;
   }
   
+.button {
+  background-color: #ADD8E6 ;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
