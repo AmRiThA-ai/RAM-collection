@@ -15,6 +15,7 @@ text-decoration: wavy;
 height: auto;
 width: auto;
 font-size: 60px;
+border: #00008B;
 
 }
 
@@ -24,6 +25,7 @@ font-size: 60px;
     font-style: normal;
     text-align: center;
     font-size: 48px;
+
   }
   
 .buttonab {
@@ -40,12 +42,16 @@ font-size: 60px;
 }
 
 .divab{
-  background-color: #D3D3D3;
+  background-color: #b6b0b0;
   padding: 20px;
-  color: #8A9A5B;
+  color: #10110e;
   font-weight: 400;
   font-style: normal;
   line-height: 1;
+  border-radius: 2cm;
+  padding: 20px;
+  text-transform: uppercase;
+
 
 
   
@@ -55,4 +61,21 @@ font-size: 60px;
   text-align: center;
 }
 
-
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #D3D3D3;
+}
+.flex-item {
+  background-color: #D3D3D3;
+  padding: 20px;
+  margin: 10px;
+ 
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+}
