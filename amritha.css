@@ -62,10 +62,9 @@ border: #00008B;
 }
 
 .flex-container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   text-align: center;
   padding: 10px;
   background-color: #D3D3D3;
