@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Outfit:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .bodyab{
   background-color: #D3D3D3;
 }
@@ -9,7 +9,7 @@
 .titleab {
 padding: 30px;
 padding-bottom: 30px;
-background-color: #ADD8E6;
+background-color: #425860;
 text-align: center;
 text-decoration: wavy;
 height: auto;
@@ -20,11 +20,10 @@ border: #00008B;
 }
 
 .h1ab {
-    font-family: "Bungee Tint", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: 48px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
 
   }
   
@@ -45,8 +44,12 @@ border: #00008B;
   background-color: #b6b0b0;
   padding: 20px;
   color: #10110e;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+    text-align: center;
+   
   line-height: 1;
   border-radius: 2cm;
   padding: 20px;
@@ -56,7 +59,9 @@ border: #00008B;
 
   
 }
-
+.buttonab:hover {
+  transform: scale(1.5);
+}
 .imgab {
   text-align: center;
 }
