@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -17,22 +20,7 @@
   color: black;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-.bodyab {
-  background-color: #615d5d;
-  font-family: Arial, sans-serif;
-}
-
-.h1ab {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 48px;
-  text-align: center;
-  color: #fff;
-}
 
 .payment-methods {
   text-align: center;
@@ -56,7 +44,7 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-right: 20px; /* Add space between form and cart */
+  margin-right: 20px; 
 }
 
 .form h3 {
@@ -113,4 +101,88 @@
 
 .cart-item span {
   font-size: 16px;
+}
+
+
+.bodyab{
+  background-color: #D3D3D3;
+}
+
+
+.titleab {
+padding: 30px;
+padding-bottom: 30px;
+background-color: #425860;
+text-align: center;
+text-decoration: wavy;
+height: auto;
+width: auto;
+font-size: 60px;
+border: #00008B;
+
+}
+
+.h1ab {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+
+  }
+  
+.buttonab {
+  background-color: #303e43 ;
+  color: #FFFFFF;
+  border: 5px #00008B;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+
+.divab{
+  background-color: #b6b0b0;
+  padding: 20px;
+  color: #10110e;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    text-align: center;
+   
+  line-height: 1;
+  border-radius: 2cm;
+  padding: 20px;
+  text-transform: uppercase;
+
+
+
+  
+}
+.buttonab:hover {
+  transform: scale(1.5);
+}
+.imgab {
+  text-align: center;
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 10px;
+  background-color: #D3D3D3;
+}
+.flex-item {
+  background-color: #D3D3D3;
+  padding: 20px;
+  margin: 10px;
+ 
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
 }
