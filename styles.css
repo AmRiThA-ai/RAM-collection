@@ -1,42 +1,28 @@
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-    width: 99.5%;
-    height: auto;
-
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  height: auto;
 }
 .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
-
 
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-.bodyab{
+
+.bodyab {
   background-color: #615d5d;
-}
-
-
-.titleab {
-padding: 30px;
-padding-bottom: 30px;
-background-color: #425860;
-text-align: center;
-text-decoration: wavy;
-height: auto;
-width: auto;
-font-size: 60px;
-border: #00008B;
-
+  font-family: Arial, sans-serif;
 }
 
 .h1ab {
@@ -44,62 +30,87 @@ border: #00008B;
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
+  text-align: center;
+  color: #fff;
+}
 
-  }
-  
+.payment-methods {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.payment-methods img {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.form {
+  width: 60%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px; /* Add space between form and cart */
+}
+
+.form h3 {
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .buttonab {
-  background-color: #303e43 ;
+  background-color: #303e43;
   color: #FFFFFF;
-  border: 5px #00008B;
-  border-radius: 30px;
+  border: none;
+  border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
-  font-family: Arial, sans-serif;
   text-align: center;
-  
 }
 
-.divab{
-  background-color: #b6b0b0;
-  padding: 20px;
-  color: #10110e;
-  font-family: "Handjet", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-    text-align: center;
-   
-  line-height: 1;
-  border-radius: 2cm;
-  padding: 20px;
-  text-transform: uppercase;
-
-
-
-  
-}
 .buttonab:hover {
-  transform: scale(1.5);
-}
-.imgab {
-  text-align: center;
+  background-color: #425860;
 }
 
-.flex-containerab {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: left;
-  padding: 10px;
-  background-color: #D3D3D3;
-}
-.flex-itemab {
-  background-color: #D3D3D3;
+.cart {
+  width: 30%; 
+  height: 30%;
+  background-color: #fff;
   padding: 20px;
-  margin: 10px;
- 
   border-radius: 10px;
-  text-align: center;
-  flex: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item span {
+  font-size: 16px;
 }

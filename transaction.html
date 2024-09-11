@@ -1,36 +1,68 @@
 <!DOCTYPE html>
-<header></header>
+<html lang="en">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="styles.css"> 
-<title>Super Spy</title>
-<header></header>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="styles.css"> 
-<title>Transactions</title>
-<div class="navbar"> 
-    <a  href="amritha.html">Super Spy</a>
-    <a  href="ria.html">Escape the Mistake</a>
-    <a  href="meghana.html">Escape</a>
-    <a  href="index.html">Homepage</a>
-</div>
-
-<h1> TRANSACTIONS</h1>
-<h3>accepted methods: (put images of paypal, mastercard, eftpos below)
-</h3>
-<div class="cart"> ##put cart on the right of the payment form
-    <h3>Cart</h3>
-    <div class="rightcolumn">
-        >ITEM
+    <link rel="stylesheet" href="styles.css">
+    <title>Transactions</title>
+</head>
+<body class="bodyab">
+    <div class="navbar">
+        <a href="amritha.html">Super Spy</a>
+        <a href="ria.html">Escape the Mistake</a>
+        <a href="meghana.html">Escape</a>
+        <a href="index.html">Homepage</a>
     </div>
-    <div class="leftcolumn"> PRICE</div>
-</div>
 
+    <h1 class="h1ab">TRANSACTIONS</h1>
+    <h3>Accepted methods:</h3>
+    <div class="payment-methods">
+        <img src="mastercard.png" alt="MasterCard">
+        <img src="eftpos.png" alt="EFTPOS">
+    </div>
 
-<form> ## payment form (make fileds to enter name, credit card number, expiry, ccv, address,email,etc)
+    <div class="container">
+        <div class="form">
+            <h3>Payment Form</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Smith"><br><br>
+                <label for="ccnum">Credit Card Number:</label>
+                <input type="text" id="ccnum" name="ccnum" placeholder="0000 0000 0000 0000"><br><br>
+                <label for="exp">Expiry Date:</label>
+                <input type="text" id="exp" name="exp" placeholder="MM/YYYY"><br><br>
+                <label for="ccv">CCV:</label>
+                <input type="text" id="ccv" name="ccv" placeholder="000"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="John.Smith@email.com"><br><br>
+                <input type="submit" value="Submit" class="buttonab">
+            </form>
+        </div>
 
-</form>
-
-
+        <div class="cart">
+            <h3>Cart</h3>
+            <div class="cart-item">
+                <span><b>ITEM</b></span>
+                <span><b>PRICE</b></span>
+            </div>
+            <div class="cart-item">
+                <span>Escape</span>
+                <span>$$</span>
+            </div>
+            <div class="cart-item">
+                <span>Escape the Mistake</span>
+                <span>$$</span>
+            </div>
+           
+            <div class="cart-item">
+                <span>Super Spy</span>
+                <span>$$</span>
+            </div>
+           <div class="cart-item">
+            <span> TOTAL PRICE (inc. GST) </span>
+            <span> $$$</span>
+           </div>
+        </div>
+    </div>
+</body>
 </html>
