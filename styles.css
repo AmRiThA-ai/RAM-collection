@@ -102,86 +102,187 @@
   font-size: 16px;
 }
 
-
-.bodyab{
-  background-color: #D3D3D3;
+/* Amritha's css */
+/* Body styling */
+.bodyab {
+    background-color: #1a1a1a;
+    color: #2b2bce; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Hero section styling */
 
-.titleab {
-padding: 30px;
-padding-bottom: 30px;
-background-color: #425860;
-text-align: center;
-text-decoration: wavy;
-height: auto;
-width: auto;
-font-size: 60px;
-border: #00008B;
-
-}
-
-.h1ab {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 48px;
-
-  }
+.hero-container{
+  max-height: 1100px; 
+  overflow: hidden;
   
-.buttonab {
-  background-color: #303e43 ;
-  color: #FFFFFF;
-  border: 5px #00008B;
-  border-radius: 30px;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-  font-family: Arial, sans-serif;
+}
+.hero-sectionab {
+
   text-align: center;
-  
+  padding: 100px 20px;
+  color: #102c77;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('computer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   
 }
 
-.divab{
-  background-color: #b6b0b0;
-  padding: 20px;
-  color: #10110e;
+.hero-textab {
+
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Button styling */
+.buttonab {
+  background-color: #007bff;
+    color: #FFFFFF;
+    border: 5px #00008B;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 20px; 
+    color: #ffffff; 
+}
+
+.buttonab:hover {
+    transform: scale(1.2);
+}
+
+/* Div styling */
+.divab {
+    background-color: #b6b0b0;
+    padding: 20px;
+    color: #10110e;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Image styling */
+.imgab {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imgab img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #10110e;
+    display: block; 
+    margin: 0 auto;
+}
+
+/* Flex container styling */
+.flex-containerab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #611f1f;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.flex-itemab {
+    background-color: #3a3a3a;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+   
+}
+
+/* Call to action styling */
+.cta {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+
+
+.cta i {
+  margin-left: 20px;
+}
+
+
+li{
+  font-size: 30px;
   font-family: "Handjet", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-    text-align: center;
-   
-  line-height: 1;
-  border-radius: 2cm;
-  padding: 20px;
-  text-transform: uppercase;
+  color: #8363bf;
+  text-align: center;
+}
 
+.pab {
+  font-size: 16px;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration-line: overline;
 
-
+}
   
-}
-.buttonab:hover {
-  transform: scale(1.5);
-}
-.imgab {
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
   text-align: center;
+  clear: both;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.flex-container {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: left;
-  padding: 10px;
-  background-color: #D3D3D3;
-}
-.flex-item {
-  background-color: #D3D3D3;
-  padding: 20px;
-  margin: 10px;
- 
-  border-radius: 10px;
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #735be8; 
+  margin-bottom: 10px;
   text-align: center;
-  flex: 1;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.toggleButton{
+  text-align:center;
+}
+
