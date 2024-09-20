@@ -1,9 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+/* Global styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -131,7 +128,7 @@
   
   /* Hero section styling */
   .hero-container {
-    max-height: 1100px;
+    max-height: 1500px;
     overflow: hidden;
   }
   
@@ -223,6 +220,7 @@
   .flex-itemab {
     background-color: #3a3a3a;
     padding: 2em;
+    width:90%;
     margin: 1em;
     border-radius: 1em;
     text-align: center;
