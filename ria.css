@@ -111,3 +111,56 @@ footer {
     padding: 20px;
     box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
 }
+
+.gallery {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery h2 {
+    margin-top: 0;
+  }
+  
+  .image-container {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    height: auto;
+    padding: 1em 0;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.4em 1.6em;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
