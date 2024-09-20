@@ -1,10 +1,8 @@
-function Escape() {
-    window.location.href = "https://exampleURL.com/";
-}
-function EscapeRoom() {
-    window.location.href = "https://exampleURL.com/";
-}
+const toggleButton = document.querySelector(".toggleButton");
 
-function SuperSpy() {
-    window.location.href = "https://scratch.mit.edu/projects/996228818/";
+function toggleImage() {
+  var image = document.querySelector(".imgab img");
+  image.style.display = (image.style.display === "none") ? "block" : "none";
+  
+  toggleButton.textContent = (image.style.display === "none") ? "Show Image" : "Hide Image";
 }
