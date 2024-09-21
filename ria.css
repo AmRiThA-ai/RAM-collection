@@ -164,3 +164,24 @@ footer {
     background-color: #ddd;
     color: black;
   }
+
+ .synopsis {
+    background-color: #162447; 
+    padding: 20px;
+    margin-bottom: 40px;
+    color: #b0bec5; 
+}
+
+.synopsis h2 {
+    color: #00d4ff; 
+    font-size: 24px;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px #000; 
+}
+
+.synopsis p {
+    color: #d4d4d4; 
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  
