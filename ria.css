@@ -170,6 +170,7 @@ footer {
     padding: 20px;
     margin-bottom: 40px;
     color: #b0bec5; 
+    
 }
 
 .synopsis h2 {
@@ -177,12 +178,14 @@ footer {
     font-size: 24px;
     margin-top: 0;
     text-shadow: 2px 2px 4px #000; 
+    text-align: center;
 }
 
 .synopsis p {
     color: #d4d4d4; 
     font-size: 18px;
     margin-bottom: 20px;
+    text-align: center;
 }
   
 .main-header {
