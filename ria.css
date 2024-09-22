@@ -185,3 +185,29 @@ footer {
     margin-bottom: 20px;
 }
   
+.main-header {
+    background: linear-gradient(135deg, #1f4068, #162447);
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.main-header h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px 5px #000;
+    margin-bottom: 10px;
+}
+
+.main-header p {
+    font-size: 1.5em;
+    color: #d4d4d4;
+}
+
+.main-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
