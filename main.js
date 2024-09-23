@@ -27,5 +27,8 @@ function submitForm() {
   if (validateForm()) {
       // Redirect to games.html if validation is successful
       window.location.href = "games.html";
+  } else {
+      // Show alert for failed submission
+      alert("Please fill out all fields before submitting.");
   }
 }
