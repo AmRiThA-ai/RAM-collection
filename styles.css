@@ -25,6 +25,21 @@ body {
   transition: 0.3s ease-in-out;
 }
 
+
+.navbar a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 1em 1.5em;
+ 
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -33,19 +48,7 @@ body {
   padding: 1em 0;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 1.4em 1.6em;
-  text-decoration: none;
-}
 
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
 h1 {
   color: #00ff8c; 
@@ -194,9 +197,12 @@ p {
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     text-decoration: underline;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    
   }
   
   /* Button styling */
@@ -286,8 +292,24 @@ p {
   .cta i {
     margin-left: 2em;
   }
-  
-  li {
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    padding: 10px;
+    transition: transform 0.2s;
     font-size: 3em;
     font-family: "Handjet", sans-serif;
     font-optical-sizing: auto;
@@ -295,7 +317,15 @@ p {
     font-style: normal;
     color: #8363bf;
     text-align: center;
-  }
+}
+
+.features-list li:hover {
+    transform: scale(1.05);
+    font-size: 4em;
+    font-family: "Oxanium", sans-serif;
+   
+  
+}
   
   .pab {
     font-size: 1.6em;
