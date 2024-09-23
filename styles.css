@@ -1,42 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-/* Global styles */
+/* Global styles */ 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #2b2bce;
-    background-color: #1a1a1a;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-    height: auto;
-    padding: 1em 0;
-  }
-  
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 1.4em 1.6em;
-    text-decoration: none;
-  }
-  
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Handjet', sans-serif;
+  line-height: 1.6;
+  color: #2b2bce;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #1a1a1a, #333);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  height: auto;
+  padding: 1em 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1.4em 1.6em;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1 {
+  color: #00ff8c; 
+  text-align: center;
+  margin: 1.5em 0;
+  font-size: 2.5em;
+  animation: fadeIn 1s; /* Fade-in animation */
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 2em;
+  padding: 0 1em;
+  text-align: center;
+  animation: fadeIn 1s; 
+}
+
+.game-package {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5em;
+  border-radius: 10px;
+  margin: 2em auto;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s;
+}
+
+.game-package:hover {
+  transform: translateY(-5px); 
+}
   
   .payment-methods {
     text-align: center;
@@ -132,6 +167,8 @@
     overflow: hidden;
   }
   
+  
+
   .hero-sectionab {
     text-align: center;
     padding: 10em 2em;
@@ -140,12 +177,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('computer.jpg');
-    background-size: cover;
+    background-image: url('computer.jpg'); 
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-  }
-  
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  } 
   .hero-textab {
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
@@ -215,6 +254,7 @@
     background-color: #611f1f;
     border-radius: 1em;
     margin: 2em 0;
+    width: 90%;
   }
   
   .flex-itemab {
@@ -447,7 +487,7 @@ header p {
   text-decoration: none;
   border-radius: 50px;
   box-shadow: 0 10px 20px rgba(0, 170, 255, 0.5);
-  transition: background 0.3s, transform 0.3s;
+  transition: 0.3s, transform 0.3s;
   font-size: 1.2em;
   text-transform: uppercase;
 }
