@@ -446,14 +446,13 @@ p {
 
 
  /* Ria CSS */
- /* Resetting default browser styles */
+ 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Global styles for the body element */
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -464,7 +463,6 @@ body {
   background-attachment: fixed;
 }
 
-/* Header styles */
 header {
   background: linear-gradient(135deg, #1f4068, #162447);
   color: #fff;
@@ -484,8 +482,6 @@ header p {
   color: #d4d4d4;
 }
 
-
-/* Designing purchase now section */
 .hero {
   text-align: center;
   padding: 60px 20px;
@@ -503,7 +499,7 @@ header p {
 .hero h2 {
   margin: 20px 0;
   font-size: 2.5em;
-  color: #00d4ff;
+  color: #9684b9;
   text-shadow: 2px 2px 4px #000;
 }
 
@@ -513,7 +509,6 @@ header p {
   color: #b0bec5;
 }
 
-/* Call-to-action button styles */
 .cta-button {
   display: inline-block;
   padding: 15px 30px;
@@ -522,7 +517,7 @@ header p {
   text-decoration: none;
   border-radius: 50px;
   box-shadow: 0 10px 20px rgba(0, 170, 255, 0.5);
-  transition: 0.3s, transform 0.3s;
+  transition: background 0.3s, transform 0.3s;
   font-size: 1.2em;
   text-transform: uppercase;
 }
@@ -533,7 +528,6 @@ header p {
   box-shadow: 0 15px 30px rgba(0, 170, 255, 0.7);
 }
 
-/* Features section styles */
 .features {
   padding: 40px;
   background: #162447;
@@ -543,7 +537,7 @@ header p {
 .features h2 {
   margin-bottom: 30px;
   font-size: 2.5em;
-  color: #00d4ff;
+  color: #9684b9;
   text-shadow: 2px 2px 4px #000;
 }
 
@@ -558,7 +552,6 @@ header p {
   text-shadow: 1px 1px 3px #000;
 }
 
-/* Footer styles */
 footer {
   background: #1f4068;
   color: #b0bec5;
@@ -567,7 +560,6 @@ footer {
   box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Gallery styles */
 .gallery {
   max-width: 800px;
   margin: 40px auto;
@@ -593,14 +585,12 @@ footer {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Image container styles */
 .image-container p {
   margin-top: 10px;
   font-size: 16px;
   color: #666;
 }
 
-/* Navigation bar styles */
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -623,7 +613,6 @@ footer {
   color: black;
 }
 
-/* Synopsis section styles */
 .synopsis {
   background-color: #162447; 
   padding: 20px;
@@ -633,7 +622,7 @@ footer {
 }
 
 .synopsis h2 {
-  color: #00d4ff; 
+  color: #9684b9; 
   font-size: 24px;
   margin-top: 0;
   text-shadow: 2px 2px 4px #000; 
@@ -647,7 +636,6 @@ footer {
   text-align: center;
 }
 
-/* Main header at top of the screen styles */
 .main-header {
   background: linear-gradient(135deg, #1f4068, #162447);
   color: #fff;
