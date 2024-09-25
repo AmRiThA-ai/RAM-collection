@@ -12,6 +12,7 @@ body {
     background-image: url('background.jpg'); 
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
 }
 
 header {
@@ -57,7 +58,7 @@ header p {
 }
 
 h1, h2 {
-    color: #ffae00; /* Light blue for headers */
+    color: #a865a8; /* Light purple for headers */
     text-shadow: 2px 2px 4px #000;
     text-align: center;
 }
@@ -69,7 +70,7 @@ p {
 }
 
 .image-container {
-    width: 250px; /* Increased width for larger image box */
+    width: 250px; 
     margin: 20px auto; /* Center the image container */
     padding: 15px; /* Increased padding for more space inside */
     background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
