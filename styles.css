@@ -169,7 +169,7 @@ p {
     padding: 0;
   }
   
-  /* Hero section styling */
+  
   .hero-container {
     max-height: 1500px;
     overflow: hidden;
@@ -242,7 +242,7 @@ p {
     animation: fadeIn 2s ease-in-out;
   }
   
-  /* Image styling */
+ 
   .imgab {
     text-align: center;
     margin: 2em 0;
@@ -256,7 +256,7 @@ p {
     margin: 0 auto;
   }
   
-  /* Flex container styling */
+
   .flex-containerab {
     display: flex;
     flex-direction: column;
@@ -278,7 +278,7 @@ p {
     flex: 1;
   }
   
-  /* Call to action styling */
+
   .cta {
     font-size: 1.8em;
     color: #007bff;
@@ -364,9 +364,9 @@ p {
     text-align: center;
   }
   
-  /* Media queries for different screen sizes */
+
   
-  /* Large desktop screen size */
+
   @media only screen and (min-width: 1920px) {
     .hero-textab {
       font-size: 4em;
@@ -379,7 +379,7 @@ p {
     }
   }
   
-  /* Medium desktop screen size */
+
   @media only screen and (min-width: 1600px) and (max-width: 1919px) {
     .hero-textab {
       font-size: 3.6em;
@@ -392,7 +392,7 @@ p {
     }
   }
   
-  /* Laptop screen size */
+  
   @media only screen and (min-width: 1366px) and (max-width: 1599px) {
     .hero-textab {
       font-size: 3.2em;
@@ -405,7 +405,7 @@ p {
     }
   }
   
-  /* Tablet screen size */
+  
   @media only screen and (min-width: 1024px) and (max-width: 1365px) {
     .hero-textab {
       font-size: 2.8em;
@@ -418,7 +418,7 @@ p {
     }
   }
   
-  /* Mobile screen size */
+
   @media only screen and (max-width: 1023px) {
     .hero-textab {
       font-size: 2.4em;
@@ -431,7 +431,7 @@ p {
     }
   }
   
-  /* Small mobile screen size */
+
   @media only screen and (max-width: 480px) {
     .hero-textab {
       font-size: 2em;
