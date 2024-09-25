@@ -1,22 +1,23 @@
+<!-- index.html -->
 
-<html> 
+<html>
   <!-- Title of the HTML Document -->
-  <title>Escape the Mistake </title>
+  <title>Escape the Mistake</title>
+  
+  <!-- Link to CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
   
   <!-- Header Section -->
   <header>
     <!-- Navigation Menu -->
-    <div class="navbar"> 
-      <a  href="index.html">Homepage</a>
-      <a  href="amritha.html">Super Spy</a>
-      <a  href="ria.html">Escape the Mistake</a>
-      <a  href="meghana.html">Escape Room</a>
+    <div class="navbar">
+      <a href="index.html">Homepage</a>
+      <a href="amritha.html">Super Spy</a>
+      <a href="ria.html">Escape the Mistake</a>
+      <a href="meghana.html">Escape Room</a>
       
       <!-- Title of the Page-->
       <title>Escape the Mistake</title>
-      
-      <!-- Link to  CSS Stylesheet -->
-      <link rel="stylesheet" href="styles.css">
     </div>
     
     <!-- Main Header Section -->
@@ -44,6 +45,21 @@
         <li>Fun and Interactive</li>
         <li>In-Game Challenges</li>
       </ul>
+      
+      <!-- Interactive Feature: Hover Effect on List Items -->
+      <script>
+        const listItems = document.querySelectorAll('.features ul li');
+        listItems.forEach((item) => {
+          item.addEventListener('mouseover', () => {
+            item.style.backgroundColor = '#f7f7f7';
+            item.style.color = '#333';
+          });
+          item.addEventListener('mouseout', () => {
+            item.style.backgroundColor = 'transparent';
+            item.style.color = '#fff';
+          });
+        });
+      </script>
     </section>
     
     <!-- Horizontal Rule (Separator) -->
@@ -64,58 +80,71 @@
          some hard realities of cyber security. Most importantly, enjoy the ride. </p>
     </section>
     
-    
-    
-    <!-- Gallery Section -->
-    <section class="gallery">
-      <!-- Heading -->
-      <h2>Game Preview</h2>
-      
-      <!-- Image Container 1 -->
-      <div class="image-container">
-        <!-- Image -->
-        <img src="IMAGE 2-Ria.jpg" alt="Game Screenshot 1" class="gallery-image">
+  
+      <!-- Gallery Section -->
+      <section class="gallery">
+        <!-- Heading -->
+        <h2>Game Preview</h2>
         
-        <!-- Text describing the image -->
-        <p>Experience a real-life simulator.</p>
-      </div>
-      
-      <!-- Image Container 2 -->
-      <div class="image-container">
-        <!-- Image -->
-        <img src="IMAGE 3-Ria.jpg" alt="Game Screenshot 2" class="gallery-image">
+        <!-- Image Container 1 -->
+        <div class="image-container">
+          <!-- Image -->
+          <img src="IMAGE 2-Ria.jpg" alt="Game Screenshot 1" class="gallery-image">
+          
+          <!-- Text describing the image -->
+          <p>Experience a real-life simulator.</p>
+        </div>
         
-        <!-- Text describing the image -->
-        <p>Engage in a challenge on which you have to overcome.</p>
-      </div>
-      
-      <!-- Image Container 3 -->
-      <div class="image-container">
-        <!-- Image -->
-        <img src="IMAGE 4-Ria.jpg" alt="Game Screenshot 3" class="gallery-image">
+        <!-- Image Container 2 -->
+        <div class="image-container">
+          <!-- Image -->
+          <img src="IMAGE 3-Ria.jpg" alt="Game Screenshot 2" class="gallery-image">
+          
+          <!-- Text describing the image -->
+          <p>Engage in a challenge on which you have to overcome.</p>
+        </div>
         
-        <!-- Text describing the image -->
-        <p>Navigate yourself through an envigorating scanvenger hunt!</p>
-      </div>
+        <!-- Image Container 3 -->
+        <div class="image-container">
+          <!-- Image -->
+          <img src="IMAGE 4-Ria.jpg" alt="Game Screenshot 3" class="gallery-image">
+          
+          <!-- Text describing the image -->
+          <p>Navigate yourself through an envigorating scanvenger hunt!</p>
+        </div>
+      </section>
       
-    </section>
-    
-    <!-- Hero Section -->
-    <section class="hero">
-      <!-- Heading -->
-      <h2>Level Up Your Experience!</h2>
+      <!-- JavaScript code to make all images interactive -->
+      <script>
+        const galleryImages = document.querySelectorAll('.gallery-image');
+        galleryImages.forEach((image) => {
+          image.addEventListener('mouseover', () => {
+            image.style.transform = 'scale(1.1)';
+          });
+          image.addEventListener('mouseout', () => {
+            image.style.transform = 'scale(1)';
+          });
+        });
+      </script>
       
-      <!-- Text encouraging the user to purchase -->
-      <p>Click below to purchase now!</p>
       
-      <!-- Call-to-Action Button -->
-      <a href="transaction.html" class="cta-button">Purchase now!</a>
-    </section>
-    
-    <!-- Footer Section -->
-    <footer>
-      <!-- Copyright Information -->
-      <p>&copy; 2024 Escape the Mistake. All rights reserved.</p>
-    </footer>
-  </body>
-</html>
+      <!-- Hero Section -->
+      <section class="hero">
+        <!-- Heading -->
+        <h2>Level Up Your Experience!</h2>
+        
+        <!-- Text encouraging the user to purchase -->
+        <p>Click below to purchase now!</p>
+        
+        <!-- Call-to-Action Button -->
+        <a href="transaction.html" class="cta-button">Purchase now!</a>
+      </section>
+      
+      <!-- Footer Section -->
+      <footer>
+        <!-- Copyright Information -->
+        <p>&copy; 2024 Escape the Mistake. All rights reserved.</p>
+      </footer>
+    </body>
+  </html>
+  
