@@ -517,7 +517,7 @@ header p {
   text-decoration: none;
   border-radius: 50px;
   box-shadow: 0 10px 20px rgba(0, 170, 255, 0.5);
-  transition: background 0.3s, transform 0.3s;
+  transition: 0.3s, transform 0.3s;
   font-size: 1.2em;
   text-transform: uppercase;
 }
