@@ -6,6 +6,18 @@
   
   <!-- Link to CSS Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+
+   <!-- Java Script for smooth transition into the webpage-->
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const body = document.body;
+    body.style.opacity = 0;
+    setTimeout(function() {
+      body.style.transition = "opacity 0.5s";
+      body.style.opacity = 1;
+    }, 100);
+  });
+</script>
   
   <!-- Header Section -->
   <header>
@@ -22,6 +34,8 @@
     
     <!-- Main Header Section -->
     <div class="main-header">
+
+      <h1>Escape the Mistake</h1>
       <!-- Logo Image -->
       <img src="IMAGE 1-Ria.jpg" alt="Escape the Mistake Logo" class="logo">
       
@@ -78,7 +92,9 @@
         could talk. Not only does it have the name, but a voucher attached, can you resist
         the urge? See what happens as you undergo this journey of self-guidance as you navigate
          some hard realities of cyber security. Most importantly, enjoy the ride. </p>
+      
     </section>
+    
     
   
       <!-- Gallery Section -->
